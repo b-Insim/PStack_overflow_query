@@ -1,0 +1,59 @@
+QueryResults.csv
+SELECT Id, Title, Body, Tags
+FROM Posts
+WHERE Id >= 0 and Id < 50000 
+and Tags is not null and Body is not null and Title is not null 
+
+QueryResults(1).csv
+SELECT Id, Title, Body, Tags
+FROM Posts
+WHERE Id >= 50000 and Id < 100000 
+and Tags is not null and Body is not null and Title is not null 
+
+QueryResults(2).csv
+SELECT Id, Title, Body, Tags
+FROM Posts
+WHERE Id >= 100000 and Id < 150000 
+and Tags is not null and Body is not null and Title is not null 
+
+QueryResults(3).csv
+SELECT Id, Title, Body, Tags
+FROM Posts
+WHERE Id >= 150000 and Id < 200000 
+and Tags is not null and Body is not null and Title is not null 
+
+QueryResults(4).csv
+SELECT Id, Title, Body, Tags
+FROM Posts
+WHERE Id >= 200000 and Id < 250000 
+and Tags is not null and Body is not null and Title is not null 
+
+QueryResults(5).csv
+SELECT Id, Title, Body, Tags
+FROM Posts
+WHERE Id >= 250000 and Id < 300000 
+and Tags is not null and Body is not null and Title is not null 
+
+QueryResults(6).csv
+SELECT Id, Title, Body, Tags
+FROM Posts
+WHERE Id >= 300000 and Id < 350000 
+and Tags is not null and Body is not null and Title is not null 
+
+QueryResults(7).csv
+SELECT Id, Title, Body, Tags
+FROM Posts
+WHERE Id >= 350000 and Id < 400000 
+and Tags is not null and Body is not null and Title is not null 
+
+QueryResults(8).csv
+SELECT Id, Title, Body, Tags
+FROM Posts
+WHERE Id >= 400000 and Id < 450000 
+and Tags is not null and Body is not null and Title is not null 
+
+QueryResults(9).csv
+SELECT Id, Title, Body, Tags
+FROM Posts
+WHERE Id >= 450000 and Id < 500000 
+and Tags is not null and Body is not null and Title is not null
